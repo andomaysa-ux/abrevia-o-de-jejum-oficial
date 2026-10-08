@@ -98,6 +98,10 @@ a.card{display:block;color:inherit;text-decoration:none}
 /* talk */
 .car{padding:40px;border-radius:34px;background:linear-gradient(135deg,var(--blue),#7a5cf0);color:#fff;margin-top:48px;position:relative;overflow:hidden}
 .car p{font-size:clamp(1.15rem,2.4vw,1.55rem);font-weight:500;max-width:34ch;line-height:1.4}
+.car .t{font-size:clamp(1.05rem,2vw,1.3rem);max-width:62ch;line-height:1.55;font-weight:500}
+.car .t+.t{margin-top:16px}
+.car ul{margin:14px 0 0;padding-left:22px;max-width:60ch;font-size:clamp(1.05rem,2vw,1.25rem);line-height:1.5}
+.car li{margin:8px 0}
 .car small{display:block;margin-top:18px;opacity:.85}
 .car::after{content:"";position:absolute;right:-50px;bottom:-70px;width:240px;height:240px;border-radius:50%;background:rgba(255,255,255,.14)}
 .btn{font:inherit;font-weight:700;padding:14px 28px;border:0;border-radius:999px;background:var(--blue);color:#fff;cursor:pointer;transition:transform .3s,box-shadow .3s}
@@ -250,12 +254,17 @@ footer h2{margin:0 auto 14px;max-width:20ch;color:var(--ink)}
 <div class="wrap">
 <h2 class="reveal">Como explicamos ao paciente</h2>
 <p class="lead reveal d1">No leito, explicamos o que acontece no corpo em linguagem simples e sempre falamos da segurança do Jucy Drink.</p>
-<div class="car reveal"><p style="font-size:clamp(1.05rem,2vw,1.3rem);max-width:62ch;line-height:1.55">“A cirurgia é um estresse para o corpo, mesmo quando tudo corre bem. Ele reage liberando hormônios como o cortisol e a adrenalina, e com isso as células deixam de “escutar” a insulina, que é o hormônio que leva o açúcar do sangue para dentro delas. Isso se chama resistência à insulina. O açúcar sobra no sangue, a energia não chega onde precisa e o corpo passa a buscar combustível nos seus próprios músculos. Quanto mais horas de jejum, pior fica. O resultado é mais fraqueza, mais risco de infecção e uma recuperação mais lenta. O Jucy Drink é dado antes da cirurgia justamente para evitar esse caminho.”</p><small>Linguagem usada na orientação ao paciente</small></div>
+<div class="car reveal">
+<p class="t">“Imagine que o seu corpo é um carro e a sua cirurgia é uma viagem longa por uma estrada de serra. Para fazer uma boa viagem, o ideal é sair com o tanque cheio de um combustível de qualidade. Quando ficamos 8, 10 ou 12 horas sem comer, o tanque vai ficando baixo, e é por isso que a gente reabastece você antes de sair.</p>
+<p class="t">Esse potinho de Jucy Drink de maçã é esse combustível: de altíssima qualidade e de absorção rápida. Ele:</p>
+<ul><li>dá a energia rápida que o seu corpo precisa durante o procedimento;</li><li>protege os seus músculos, que são a estrutura do carro, para você manter a sua força;</li><li>tira a sensação de sede, boca seca e fraqueza antes de entrar na sala.</li></ul>
+<p class="t" style="margin-top:16px">E o mais importante: por ser um líquido claro e leve, como um suco refinado, o seu estômago processa tudo bem rápido. Na hora marcada da cirurgia, o seu estômago já estará limpo e seguro, e o seu corpo cheio de energia, para você acordar bem e se recuperar mais rápido.”</p>
+<small>Linguagem usada na orientação ao paciente</small></div>
 <div class="grid3">
-<div class="card reveal"><div class="ico" style="background:var(--blue)">⚡</div><h3>Energia na hora certa</h3><p>O carboidrato faz o corpo liberar insulina antes da cirurgia. As células voltam a usar o açúcar e o corpo sai do modo jejum, que é o de gastar reservas.</p></div>
-<div class="card reveal d1"><div class="ico" style="background:var(--mint)">♥</div><h3>Músculos protegidos</h3><p>A proteína do soro do leite (8 g) entrega aminoácidos prontos. Assim o corpo não precisa desmontar o músculo para consegui-los, e você perde menos força.</p></div>
-<div class="card reveal d2"><div class="ico" style="background:var(--amber)">☺</div><h3>Menos sede e mal-estar</h3><p>Diminui a boca seca, a fraqueza e a ansiedade antes de entrar na sala.</p></div>
-<div class="card reveal d2"><div class="ico" style="background:var(--coral)">✓</div><h3>Por que é seguro</h3><p>É um líquido claro, sem gordura e sem fibra. No intervalo de 3 a 4 horas que combinamos, o estômago esvazia por completo. Por isso o horário é rigoroso e por isso confirmamos antes se alguma doença ou remédio deixa o estômago mais lento.</p></div>
+<div class="card reveal"><div class="ico" style="background:var(--blue)">⚡</div><h3>Energia na hora certa</h3><p>O carboidrato ajuda o corpo a liberar insulina antes da cirurgia. Com ela, o açúcar entra nas células e vira energia, e o seu corpo trabalha como quem acabou de se alimentar.</p></div>
+<div class="card reveal d1"><div class="ico" style="background:var(--mint)">♥</div><h3>Músculos protegidos</h3><p>A proteína do soro do leite (8 g) entrega aminoácidos prontos para o corpo usar. Assim os seus músculos ficam preservados e você mantém mais força.</p></div>
+<div class="card reveal d2"><div class="ico" style="background:var(--amber)">☺</div><h3>Mais conforto</h3><p>Você chega à sala com menos sede, menos boca seca e mais tranquilidade.</p></div>
+<div class="card reveal d2"><div class="ico" style="background:var(--coral)">✓</div><h3>Tudo no tempo certo</h3><p>É um líquido claro, sem gordura e sem fibra. No intervalo de 3 a 4 horas que combinamos, o estômago fica pronto para a anestesia. Antes de oferecer, conferimos cada detalhe do seu caso para que tudo seja seguro para você.</p></div>
 </div>
 <div class="note reveal" style="margin-top:36px"><b>Crianças, em avaliação:</b> estamos avaliando a viabilidade de ofertar água, chá e gelatina, de preferência sem açúcar, para não deixar resíduos que atrapalhem exames. Seguimos em alinhamento constante.</div>
 </div>
